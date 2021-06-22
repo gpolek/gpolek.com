@@ -295,6 +295,10 @@ ol {
     position: relative;
     padding: 19% 0 15%;
 }
+.content p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
 .content mark {
     padding: 0;
     color: inherit;
@@ -1451,6 +1455,9 @@ ul.footer-social li {
     }
 }
 @media (max-width: 768px) {
+    #links ul li::before {
+        display: none;
+    }
     .content {
         padding: 24% 0 25%;
     }
