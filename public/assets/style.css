@@ -1440,6 +1440,21 @@ ul.footer-social li {
   animation-delay: 500ms;
 }
 
+#redirect div span {
+    background-color: #FAF584;
+    padding: 10px 40px 10px 40px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+#redirect {
+    margin-top: -50px;
+}
+
+#redirect a {
+    text-decoration: underline;
+}
+
 /* 15. Media Queries For Responsive Design
 -------------------------------------------------*/
 
